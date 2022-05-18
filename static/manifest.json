@@ -1,0 +1,58 @@
+{
+    "name": "Base App",
+    "short_name": "BaseApp",
+    "description": "Base App for SvelteKit.",
+    "icons": [
+      {
+        "src": "favicon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "favicon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "favicon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "id": "/",
+    "start_url": "/",
+    "theme_color": "#5DD5DD",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7",
+    "shortcuts" : [
+      {
+        "icons": [{ "src": "/favicon-96x96.png", "sizes": "96x96" }],
+        "name": "Register",
+        "url": "/register",
+        "description": "Register on Base App"
+      },
+      {
+        "icons": [{ "src": "/favicon-96x96.png", "sizes": "96x96" }],
+        "name": "Login",
+        "url": "/login",
+        "description": "Login to Base App"
+      }
+    ],
+    "related_applications": [
+      {
+        "platform": "web",
+        "url": "https://www.baseapp.co.za"
+      }
+    ],
+    "screenshots":[
+      {
+        "src": "favicon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "platform": "wide",
+        "label": "Base App"
+      }
+    ]
+  }
